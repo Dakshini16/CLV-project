@@ -16,15 +16,22 @@ This project simulates the work of a data analyst supporting marketing and custo
 ## 🗂 Folder Structure
 
 CLV-project/
-├── data/ # Cleaned customer dataset
-│ └── clv_cleaned.csv
-├── notebooks/ # Jupyter Notebook with full analysis
-│ └── clv_analysis.ipynb
-├── report/ # Summary presentation with insights
-│ └── clv_summary.pdf
-├── dashboards/ # Tableau Dashboard or public link (optional)
-│ └── clv_dashboard.twbx
-├── README.md # This file 
+├── data/                         # All data files
+│   ├── raw/                      # Original dataset
+│   │   └── online_retail.csv
+│   └── cleaned/                  # Cleaned dataset with CLV
+│       └── clv_cleaned.csv
+├── notebooks/                   # Jupyter Notebook with analysis
+│   └── clv_analysis.ipynb
+├── report/                      # Summary slide deck (PDF)
+│   └── clv_summary.pdf
+├── dashboards/                  # Tableau dashboard (optional)
+│   └── clv_dashboard.twbx
+├── visuals/                     # Optional: saved charts
+│   ├── clv_histogram.png
+│   ├── clv_segment_chart.png
+│   └── clv_recency_boxplot.png
+├── README.md                    # Project documentation
 
 
 ---
