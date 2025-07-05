@@ -64,19 +64,6 @@ clv_project/
 
 ---
 
-## 📊 Dashboard
-
-If using Tableau Public:
-
-🔗 [View Interactive Dashboard](https://public.tableau.com/views/your-dashboard-link)
-
-Or check:
-```
-/dashboards/clv_dashboard.twbx
-```
-
----
-
 ## 📬 Contact
 
 - **Name**: Dakshini Shanmugam
